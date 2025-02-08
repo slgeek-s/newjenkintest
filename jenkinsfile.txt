@@ -1,0 +1,11 @@
+jenkinsfile
+
+pipeline  {
+    agent  any
+    stages('build') {
+        stage {
+            steps {
+                 echo  'this  is  build'
+            }
+        }
+    }
